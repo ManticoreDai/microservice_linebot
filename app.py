@@ -28,12 +28,18 @@ except:
     line_access_token = config.get('line-bot', 'line_access_token')
     line_secret = config.get('line-bot', 'line_secret')
 
+
 line_bot_api = LineBotApi(line_access_token)
 handler = WebhookHandler(line_secret)
 
 
 movies_df = pd.read_excel('./movies_info.xlsx')
-print(movies_df)
+
+@app.route("/", methods=['GET'])
+def index():
+    return "Good!"
+
+# print(movies_df)
 # 接收 LINE 的資訊
 @app.route("/callback", methods=['POST'])
 def callback():
@@ -63,7 +69,6 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def movies(event):
-    
     value_rank = re.compile(r'^排行榜 *(2[0]|1[0-9]|[1-9])$')
     result_rank = value_rank.match(event.message.text)
     if result_rank:
@@ -89,49 +94,19 @@ def handle_postback(event):
     if id > len(movies_df):
         id = len(movies_df)
     # poster(movies_df['劇照'][id])
-    TemplateMessage = json.load(open('poster.json','r',encoding='utf-8'))
+    # TemplateMessage = json.load(open('poster.json','r',encoding='utf-8'))
     image_url=eval(movies_df['劇照'][id-1])[0]
     print("在這裡:"+image_url)
 
     if len(eval(movies_df['劇照'][id-1])) != 0:
-        carousel_template = ImageCarouselTemplate(
-                columns=[
-                    ImageCarouselColumn(
-                        image_url=eval(movies_df['劇照'][id-1])[0],
+        columns = [ImageCarouselColumn(
+                        image_url=eval(movies_df['劇照'][id-1])[i],
                         action=MessageTemplateAction(
                             label=movies_df['片名'][id-1],
                             text="劇照"
                         )
-                    ),
-                    ImageCarouselColumn(
-                        image_url=eval(movies_df['劇照'][id-1])[1],
-                        action=MessageTemplateAction(
-                            label=movies_df['片名'][id-1],
-                            text="劇照"
-                        ),
-                    ),
-                    ImageCarouselColumn(
-                        image_url=eval(movies_df['劇照'][id-1])[2],
-                        action=MessageTemplateAction(
-                            label=movies_df['片名'][id-1],
-                            text="劇照"
-                        ),
-                    ),
-                    ImageCarouselColumn(
-                        image_url=eval(movies_df['劇照'][id-1])[3],
-                        action=MessageTemplateAction(
-                            label=movies_df['片名'][id-1],
-                            text="劇照"
-                        ),
-                    ),
-                    ImageCarouselColumn(
-                        image_url=eval(movies_df['劇照'][id-1])[4],
-                        action=MessageTemplateAction(
-                            label=movies_df['片名'][id-1],
-                            text="劇照"
-                        ),
-                    )]
-                )
+                    ) for i in range(5)]
+        carousel_template = ImageCarouselTemplate(columns=columns)
 
     line_bot_api.reply_message(event.reply_token, TemplateSendMessage(alt_text="電影劇照", template=carousel_template)) #TemplateSendMessage('profile',TemplateMessage)
 
@@ -151,9 +126,6 @@ def get_movie(df ,rank = 1, col = None):
 
 # line_bot_api.push_message("Ub7385e82f5a34b097e8a12ec38601723", TextSendMessage(text="請輸入1~20的數字，查詢電影排行榜"))
 
-if __name__ == "__main__":
-    app.run(debug = True)
-
-
-
-#
+if __name__ == "__main__":    
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=True, host='0.0.0.0', port=port)    
