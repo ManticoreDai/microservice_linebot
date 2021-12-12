@@ -1,0 +1,687 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/4514c0a7e7e94e2084b4cf7b25b43666.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "草衙道國賓影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.ambassador.com.tw/home/Showtime?ID=f760950a-94b6-4e04-9573-831ed7283c5c&DT=2021/06/03"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=高雄草衙道國賓影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/4fe83b4702e84b91ba97750071460eba.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "喜滿客夢時代影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.cinemark.com.tw/"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=高雄喜滿客夢時代影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/77f6ec752d5d49c495e87b6308241e55.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "MLD Cinema",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.mldcinema.com/"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=MLD+Cinema"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/0851b35e6a7d463db5d42f74f1abe8fa.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "大遠百威秀影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.tgos.tw/MapSites/Web/Map/MS_Map.aspx?themeid=23299&type=view&visual=Point"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=高雄大遠百威秀影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/a3f8aa97e89b4cec9296dd01b205e4ed.JPG",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "奧斯卡3D數位影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "http://www.cannes.com.tw/"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=奧斯卡3D數位影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/e9ef0ce0d59a4d12979a83cecc8f70b4.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "大立in89豪華影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.in89.com.tw/index.aspx?TheaterId=16"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=大立in89豪華影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/88a95b5226ed47659a4ccee2225ce56f.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "高雄市電影館",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "http://kfa.kcg.gov.tw/"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=高雄市電影館"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/fe85a90385da440c91317fda2a4b6be4.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "in89駁二電影院",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.in89.com.tw/index.aspx?TheaterId=2"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=in89駁二電影院"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/b62c5e9af40c4cb5b50c3cbb3f132ed5.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "環球數位3D影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.u-movie.com.tw/cinema/"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=高雄環球數位3D影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/ec3810b4fe684e8ba2f0a4fdc7d01a61.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "十全數位3D影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "http://www.shrchiuan.com.tw/"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=十全數位3D影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/0b229a64f2ab4326bc7a5430239108c1.png",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "義大國賓影城",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "官方網站",
+                "uri": "https://www.ambassador.com.tw/home/Showtime?ID=ec07626b-b382-474e-be39-ad45eac5cd1c&DT=2021/06/03"
+              },
+              "margin": "xxl",
+              "height": "sm",
+              "adjustMode": "shrink-to-fit",
+              "color": "#FF6B6E",
+              "position": "relative",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=高雄義大國賓影城"
+              },
+              "position": "relative",
+              "margin": "sm",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/ce26cc60c8c247eba39ebb38410f2a7d.jpg",
+          "size": "full",
+          "aspectMode": "cover",
+          "aspectRatio": "320:213"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "岡山統一戲院",
+              "weight": "bold",
+              "size": "md",
+              "style": "normal",
+              "decoration": "none",
+              "position": "relative",
+              "align": "center",
+              "margin": "xl"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "導航",
+                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=岡山統一戲院"
+              },
+              "position": "relative",
+              "margin": "xxl",
+              "height": "sm",
+              "style": "primary",
+              "color": "#A17DF5",
+              "adjustMode": "shrink-to-fit"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      }
+    ]
+  }

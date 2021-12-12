@@ -1,0 +1,7 @@
+line-bot-sdk
+bs4
+pandas
+configparser
+flask
+#re
+#json

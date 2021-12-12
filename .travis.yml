@@ -1,0 +1,24 @@
+services:
+  - docker
+env:
+  global:
+    # should change to yours
+    - secure: "q7w+OMiMC1sgCbJZk49eEDUqGOf/1Ea70c959VSv28B+aT3qcFCWoe55zlzzqzKZKXoMT8MprlsaOFkXiiCSoY83Gz/ZWSKFcDhk52fcjYurZcT4Z8h98VuK5E5IxiB8M87TDVZX0D9GyYhDIukfrIbsbKCByLedc6UxUB+2pgNHscDyEN3GDTHWPXiJHpr3NOsbQ3DxUJExy7J23AludegQe+a+8fC5FuwyVI+F6UUcmInetwY/vpefyJ9W7VUJcjFYKwE/ef+xRS1RM6WjJ5rgNokJnI+kEEJJqt6S9gHDOVdB8pnoQiA67iNJbdoZYXTNTQBitl9uWGpREapmm1PzFSJ0jbNElCNM30K7n8xYg+ay4MZJSFZn1wkyMhFproQJ4MLxrLBPk63C2922EqdbPk7kvRpVo8ATxkBfpNtC4pw1INAOsL/Gwn9RTAhB2JQXrBGDwqeo7gYFk2XalF7ubu+zV/KSP7O7j8rlYCfFCtJ125PkBrHrRdzdDSAoa0ELloxZbaFHboOa/oN6eVG3eiLOJ4Z5mEvsC/rRgUOMQXetDAi1GuyMW0pUZe2Hf8dQ6FbLftJldOoLQLqvhORLRTsj1/qnFgcfEq7RxanKRjN3QRiitPe4HyJW6vwJ5qlbJoRuCAxtad1frysBh5jYn3p9/dw+tKN1XCJo+QA="
+before_install:
+  - echo "Login into heroku"
+  - heroku container:login
+jobs:
+  include:
+    - stage: push
+      script:
+        # should change to yours
+        - docker build -t ch4-web:latest -f ./Dockerfile .
+        # should change to yours
+        - docker tag ch4-web:latest registry.heroku.com/ch4-class-demo/web
+        - docker push registry.heroku.com/ch4-class-demo/web
+      deploy:
+        - provider: script
+          # should change to yours
+          script: heroku container:release web --app ch4-class-demo
+          on: # 不設這個 預設只有在 master branch 會做 deploy
+            branch: main
