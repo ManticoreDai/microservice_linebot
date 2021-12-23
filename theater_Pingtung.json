@@ -1,122 +1,122 @@
 {
-    "type": "carousel",
-    "contents": [
-      {
-        "type": "bubble",
-        "size": "micro",
-        "hero": {
-          "type": "image",
-          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/77f6ec752d5d49c495e87b6308241e55.jpg",
-          "size": "full",
-          "aspectMode": "cover",
-          "aspectRatio": "320:213"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "屏東環球國賓影城",
-              "weight": "bold",
-              "size": "md",
-              "style": "normal",
-              "decoration": "none",
-              "position": "relative",
-              "align": "center",
-              "margin": "xl"
-            },
-            {
-              "type": "button",
-              "action": {
-                "type": "uri",
-                "label": "官方網站",
-                "uri": "https://www.ambassador.com.tw/home/Showtime?ID=41aae717-4464-49f4-ac26-fec2d16acbd6&DT=2021/06/03"
-              },
-              "margin": "xxl",
-              "height": "sm",
-              "adjustMode": "shrink-to-fit",
-              "color": "#FF6B6E",
-              "position": "relative",
-              "style": "primary"
-            },
-            {
-              "type": "button",
-              "action": {
-                "type": "uri",
-                "label": "導航",
-                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=屏東環球國賓影城"
-              },
-              "position": "relative",
-              "margin": "sm",
-              "height": "sm",
-              "style": "primary",
-              "color": "#A17DF5",
-              "adjustMode": "shrink-to-fit"
-            }
-          ],
-          "spacing": "sm",
-          "paddingAll": "13px"
-        }
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/77f6ec752d5d49c495e87b6308241e55.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
       },
-      {
-        "type": "bubble",
-        "size": "micro",
-        "hero": {
-          "type": "image",
-          "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/a24cee4673c44536832b162a05b2d059.jpg",
-          "size": "full",
-          "aspectMode": "cover",
-          "aspectRatio": "320:213",
-          "position": "relative"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "中影屏東影城",
-              "weight": "bold",
-              "size": "md",
-              "style": "normal",
-              "decoration": "none",
-              "position": "relative",
-              "align": "center",
-              "margin": "xl"
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東環球國賓影城",
+            "weight": "bold",
+            "size": "md",
+            "style": "normal",
+            "decoration": "none",
+            "position": "relative",
+            "align": "center",
+            "margin": "xl"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "官方網站",
+              "uri": "https://www.ambassador.com.tw/home/Showtime?ID=41aae717-4464-49f4-ac26-fec2d16acbd6&DT=2021/06/03"
             },
-            {
-              "type": "button",
-              "action": {
-                "type": "uri",
-                "label": "官方網站",
-                "uri": "http://ptcinema.movie.com.tw/"
-              },
-              "margin": "xxl",
-              "height": "sm",
-              "adjustMode": "shrink-to-fit",
-              "color": "#FF6B6E",
-              "position": "relative",
-              "style": "primary"
+            "margin": "xxl",
+            "height": "sm",
+            "adjustMode": "shrink-to-fit",
+            "color": "#FF6B6E",
+            "position": "relative",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "導航",
+              "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=屏東環球國賓影城"
             },
-            {
-              "type": "button",
-              "action": {
-                "type": "uri",
-                "label": "導航",
-                "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=中影屏東影城"
-              },
-              "position": "relative",
-              "margin": "sm",
-              "height": "sm",
-              "style": "primary",
-              "color": "#A17DF5",
-              "adjustMode": "shrink-to-fit"
-            }
-          ],
-          "spacing": "sm",
-          "paddingAll": "13px"
-        }
+            "position": "relative",
+            "margin": "sm",
+            "height": "sm",
+            "style": "primary",
+            "color": "#A17DF5",
+            "adjustMode": "shrink-to-fit"
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
       }
-    ]
-  }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://www.tgos.tw/MapSites/VirtualDir/Theme/23299/Pic/a24cee4673c44536832b162a05b2d059.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213",
+        "position": "relative"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "中影屏東影城",
+            "weight": "bold",
+            "size": "md",
+            "style": "normal",
+            "decoration": "none",
+            "position": "relative",
+            "align": "center",
+            "margin": "xl"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "官方網站",
+              "uri": "http://ptcinema.movie.com.tw/"
+            },
+            "margin": "xxl",
+            "height": "sm",
+            "adjustMode": "shrink-to-fit",
+            "color": "#FF6B6E",
+            "position": "relative",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "導航",
+              "uri": "https://www.google.com/maps/dir/?api=1&origin=&destination=中影屏東影城"
+            },
+            "position": "relative",
+            "margin": "sm",
+            "height": "sm",
+            "style": "primary",
+            "color": "#A17DF5",
+            "adjustMode": "shrink-to-fit"
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    }
+  ]
+}

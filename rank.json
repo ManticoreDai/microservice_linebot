@@ -2,7 +2,7 @@
     "type": "bubble",
     "hero": {
         "type": "image",
-        "url": "https://movies.yahoo.com.tw/i/o/production/movies/September2021/N8kcUs4tj3YXCvQ5cfO6-749x1080.jpg",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/v8lYMv5H1HTk4sQUYYpR-756x1080.jpg",
         "size": "full",
         "aspectRatio": "3.95:5.6"
     },
@@ -12,32 +12,32 @@
         "contents": [
             {
                 "type": "text",
-                "text": "007 生死交戰",
+                "text": "月老",
                 "size": "lg",
                 "weight": "bold"
             },
             {
                 "type": "text",
-                "text": "上映日期：2021-09-30"
+                "text": "上映日期：2021-11-24"
             },
             {
                 "type": "text",
-                "text": "片　　長：02時43分"
+                "text": "片　　長：02時08分"
             },
             {
                 "type": "text",
-                "text": "發行公司：環球影業"
+                "text": "發行公司：麻吉砥加電影有限公司"
             },
             {
                 "type": "text",
-                "text": "導　　演：凱瑞福永(Cary Joji Fukunaga)"
+                "text": "導　　演：九把刀"
             },
             {
                 "type": "button",
                 "action": {
                     "type": "message",
                     "label": "劇情介紹",
-                    "text": "一向被視為年度大片的007系列電影即將推出第25部，丹尼爾克雷格再度飾演所向披靡，家喻戶曉的英國情報員詹姆斯龐德，延續上一集的故事發展，M夫人因公殉職，由雷夫范恩斯飾演新任的軍情六處長官M先生，他也是龐德的頂頭上司，班維蕭則飾演角色討喜幽默的裝備武器專家Q先生，而最令人注目的龐德女郎一角，將由法國女星蕾雅瑟杜再次詮釋，這也是除了第一代龐德女郎尤妮絲蓋森(Eunice Gayson)之外，打破過去007電影57年的慣例，成為史上第二位重複登場的龐德女郎；另一位全新龐德女郎則是曾經演出《銀翼殺手𝟐𝟎𝟒𝟗 》的古巴裔新生代女神安娜德哈瑪斯。此外，今年4月底才正式公布，這一集新的反派角色將由..."
+                    "text": "★榮獲第58屆金馬獎11項大獎提名_x000D_\n慘遭雷擊而死的阿綸（柯震東 飾）來到陰間，生前所有的記憶歸零。他必須做出選擇：投胎轉世卻可能變成蝸牛；或是擔任神職，累積陰德再修轉世為人的正果？阿綸決定成為月老新鮮人，他與個性爆衝粉紅女Pinky（王淨 飾）搭檔，來到人間執行任務，當阿綸遇見狗狗阿魯以及牽著他的主人小咪時，他前世的記憶都回來了，小咪（宋芸樺 飾）就是他生前的摯愛。阿綸希望能幫助陽間的小咪尋得新的姻緣，但每一條綁在小咪手上的紅線竟然都被燒毀！原來，有些事，一萬年也不會變…_x000D_\n _x000D_\n同一時間從陰間逃到人間的鬼頭成（馬志翔 飾），展開腥風血雨的復仇行..."
                 },
                 "color": "#FF6B6E",
                 "style": "primary",
@@ -48,9 +48,31 @@
                 "action": {
                     "type": "uri",
                     "label": "更多資訊",
-                    "uri": "https://movies.yahoo.com.tw/movieinfo_main/007%E7%94%9F%E6%AD%BB%E4%BA%A4%E6%88%B0-no-time-to-die-10406"
+                    "uri": "https://movies.yahoo.com.tw/movieinfo_main/%E6%9C%88%E8%80%81-till-we-meet-again-11563"
                 },
                 "color": "#A17DF5",
+                "style": "primary",
+                "margin": "lg"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "postback",
+                    "label": "劇照",
+                    "data": 1
+                },
+                "color": "#66CDAA",
+                "style": "primary",
+                "margin": "lg"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "postback",
+                    "label": "訂票",
+                    "data": 1
+                },
+                "color": "#5c8dff",
                 "style": "primary",
                 "margin": "lg"
             }
