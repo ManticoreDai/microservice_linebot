@@ -10,7 +10,7 @@ def rank(data_dict, index):
     if len(data_dict['劇情介紹']) > 299:
         data_dict['劇情介紹'] = data_dict['劇情介紹'][0:295] + "..."
 
-    data_dict = {
+    data_json = {
         'rank': index,
     }
 
@@ -70,14 +70,14 @@ def rank(data_dict, index):
     ]
 
     if len(eval(data_dict['劇照'])) != 0:
-        data_dict['action'] = '劇照'
+        data_json['action'] = '劇照'
         message_content.append(
             {
                 "type": "button",
                 "action": {
                     "type": "postback",
                     "label": "劇照",
-                    "data": json.dumps(data_dict)
+                    "data": json.dumps(data_json)
                     # "uri": data_dict['連結']
                 },
                 "color": "#66CDAA",
@@ -86,14 +86,14 @@ def rank(data_dict, index):
             }
         )
 
-    data_dict['action'] = '訂票'
+    data_json['action'] = '訂票'
     message_content.append(
         {
             "type": "button",
             "action": {
                 "type": "postback",
                 "label": "訂票",
-                "data": json.dumps(data_dict)
+                "data": json.dumps(data_json)
             },
             "color": "#5c8dff",
             "style": "primary",

@@ -59,7 +59,7 @@
                 "action": {
                     "type": "postback",
                     "label": "劇照",
-                    "data": 1
+                    "data": "{\"rank\": 1, \"action\": \"\\u5287\\u7167\"}"
                 },
                 "color": "#66CDAA",
                 "style": "primary",
@@ -70,7 +70,7 @@
                 "action": {
                     "type": "postback",
                     "label": "訂票",
-                    "data": 1
+                    "data": "{\"rank\": 1, \"action\": \"\\u8a02\\u7968\"}"
                 },
                 "color": "#5c8dff",
                 "style": "primary",
